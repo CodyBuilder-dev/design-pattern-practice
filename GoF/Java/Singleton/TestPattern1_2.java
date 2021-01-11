@@ -1,3 +1,4 @@
+import 
 public class TestPattern1_2 {
     public static void main(String[] args) {
         // 싱글톤 패턴 적용시
