@@ -1,5 +1,3 @@
-package GoF.Java.Strategy;
-
 public class AObj {
     BInterface b;
     

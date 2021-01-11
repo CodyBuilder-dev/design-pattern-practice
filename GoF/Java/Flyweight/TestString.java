@@ -1,5 +1,3 @@
-package GoF.Java.Flyweight;
-
 public class TestString {
     public static void main(String[] args) {
         // String 생성자를 이용해 같은 내용, 다른 객체 선언

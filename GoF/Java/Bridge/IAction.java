@@ -1,5 +1,3 @@
-package GoF.Java.Bridge;
-
 public class IAction {
     private IRobot robot;
 

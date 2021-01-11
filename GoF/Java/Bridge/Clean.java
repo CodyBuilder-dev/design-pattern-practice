@@ -1,5 +1,3 @@
-package GoF.Java.Bridge;
-
 public class Clean extends IAction{
     public Clean(IRobot robot) {
         super(robot);

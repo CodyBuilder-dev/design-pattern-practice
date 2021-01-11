@@ -1,5 +1,3 @@
-package GoF.Java.Bridge;
-
 public interface IRobot {
     void powerOn();
     void powerOff();

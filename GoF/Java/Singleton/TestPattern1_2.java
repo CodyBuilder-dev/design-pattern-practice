@@ -1,5 +1,3 @@
-package GoF.Java.Singleton;
-
 public class TestPattern1_2 {
     public static void main(String[] args) {
         // 싱글톤 패턴 적용시
@@ -12,6 +10,13 @@ public class TestPattern1_2 {
 
         //new 생성자는 error 발생
         //DatabaseSingle d6 = new DatabaseSingle("5");
-        System.out.println("database use");
+        System.out.println("database memory use");
+        System.out.println(System.identityHashCode(d1));
+        System.out.println(System.identityHashCode(d2));
+        System.out.println(System.identityHashCode(d3));
+        System.out.println(System.identityHashCode(d4));
+        System.out.println(System.identityHashCode(d5));
+
+        System.out.println(d1.getName()+d2.getName());
     }
 }

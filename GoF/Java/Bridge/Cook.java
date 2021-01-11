@@ -1,5 +1,3 @@
-package GoF.Java.Bridge;
-
 public class Cook extends IAction {
     public Cook(IRobot robot) {
         super(robot);

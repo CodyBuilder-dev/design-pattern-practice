@@ -1,5 +1,3 @@
-package GoF.Java.Strategy;
-
 public class TestPattern2 {
     public static void main(String[] args) {
         

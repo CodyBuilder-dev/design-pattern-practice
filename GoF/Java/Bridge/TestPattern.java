@@ -1,5 +1,3 @@
-package GoF.Java.Bridge;
-
 public class TestPattern {
     public static void main(String[] args) {
         // robot 객체의 일반적인 구현

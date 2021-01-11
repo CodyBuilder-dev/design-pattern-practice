@@ -1,5 +1,3 @@
-package GoF.Java.Strategy;
-
 public abstract class Database {
     public String name;
 

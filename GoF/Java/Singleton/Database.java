@@ -1,5 +1,3 @@
-package GoF.Java.Singleton;
-
 public class Database {
     private String name;
 

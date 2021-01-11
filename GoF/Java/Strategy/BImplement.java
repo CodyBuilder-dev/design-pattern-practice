@@ -1,5 +1,3 @@
-package GoF.Java.Strategy;
-
 public class BImplement implements BInterface {
     @Override
     public void funcA() {

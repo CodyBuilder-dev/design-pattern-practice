@@ -1,5 +1,3 @@
-package GoF.Java.Strategy;
-
 // 데이터베이스 인스턴스의 DI를 위한 Wrapper 클래스
 public class DatabaseUse {
     public Database db;

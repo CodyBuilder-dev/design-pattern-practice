@@ -1,5 +1,3 @@
-package GoF.Java.Flyweight;
-
 public class TestClass {
     public static void main(String[] args) {
         MyData md1 = new MyData();
