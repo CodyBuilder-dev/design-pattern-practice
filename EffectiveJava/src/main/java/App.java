@@ -1,3 +1,4 @@
+import enumtest.EnumTest;
 import libtest.RandomTest;
 
 import java.io.IOException;
@@ -15,7 +16,8 @@ public class App {
         //app.randomTest();
 //        app.transferToTest();
 //        app.stringTest();
-        app.arrayTest();
+//        app.arrayTest();
+        app.enumTest();
     }
 
     public void randomTest() {
@@ -55,5 +57,11 @@ public class App {
         System.out.println(INTARRAY[1]); // 2출력
         INTARRAY[1] = 3;
         System.out.println(INTARRAY[1]); // 3출력
+    }
+
+    public void enumTest() {
+        System.out.println(EnumTest.Apple.FUJI);
+        System.out.println(EnumTest.Apple.valueOf("FUJI"));
+        System.out.println(EnumTest.Apple.FUJI.toString());
     }
 }
