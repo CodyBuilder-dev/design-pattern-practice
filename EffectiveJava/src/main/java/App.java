@@ -63,5 +63,11 @@ public class App {
         System.out.println(EnumTest.Apple.FUJI);
         System.out.println(EnumTest.Apple.valueOf("FUJI"));
         System.out.println(EnumTest.Apple.FUJI.toString());
+
+        System.out.println(EnumTest.Planet.valueOf("EARTH"));
+
+        //System.out.println(EnumTest.Planet.MERCURY + EnumTest.Planet.MERCURY.surfaceGravity());
+        System.out.println(EnumTest.Planet.VENUS.toString() + " " + EnumTest.Planet.VENUS.surfaceGravity());
+        System.out.println(EnumTest.Planet.EARTH.toString() + " " + EnumTest.Planet.EARTH.surfaceGravity());
     }
 }

@@ -15,7 +15,7 @@ public class EnumTest {
     public enum Planet {
         MERCURY(3.302e+23,2.439e6),
         VENUS(4.869+24,6.052e6),
-        EARTH(5.975e+24,6.378e6)
+        EARTH(5.975e+24,6.378e6);
 
         // 내부 상수 선언 가능
         private static final double G = 6.673E-11;
